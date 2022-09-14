@@ -1,0 +1,37 @@
+Cadastro Cliente Pessoa Fisica:
+    "Cliente = Nome e CPF / a pessoa deve possuir um Nome e CPF, CPF vai ser tratado como o seu ID."
+
+Cadastro Conta Corrente:
+    "Criação da Conta = Para a criação da conta deve se precisar do documento do Cliente;"
+    "Conta corrente vinculada ao Cliente = Uma conta corrente DEVE ser vinculada a APENAS um Cliente;"
+    "Agencia = a Agencia mantera um codigo fixo 123 ex: agencia123"
+    "Conta = A conta deve possuir um numero gerado aleatoriamente para a conta usando um Ramdon(pode se usar em um encapsulamento)"
+    "Senha =  A senha deve conter 4 digitos"
+
+Cadastro Conta Poupança:
+    "Criação da Conta = Para a criação da conta deve se precisar do documento do Cliente;"
+    "Conta corrente vinculada ao Cliente = Uma conta corrente DEVE ser vinculada a APENAS um Cliente;"
+    "Agencia = a Agencia mantera um codigo fixo 123 ex: agencia123"
+    "Conta = A conta deve possuir um numero gerado aleatoriamente para a conta usando um Ramdon(pode se usar em um encapsulamento)"
+    "Senha =  A senha deve conter 4 digitos"
+                A CONTA POUPANÇA PODE SER CRIADA JUNTO COM A CONTA CORRENTE EM APENAS UMA CONTA
+Efetuar Deposito:
+    "Solicitar o documento do cliente da conta(validar se existe)"
+    "Solicitar a agencia e a conta de origem(Corrente ou Poupança)(validar se existe)"
+    "Solicitar o valor a qual vai ser depositado(não é permitido valores negativos)"
+    "Solicitar a senha e pedir a confirmação para o deposito"
+
+Efetuar Saque:
+    "Solicitar documento cliente da conta (validar se existe)"
+    "Solicitar a agencia e conta de origem (validar se existe)"
+    "Solicitar valor para saque (não permitir valor negativo)"
+    "Solicitar senha e Confirmar o deposito (validar saldo)"
+
+Efetuar Transferencia:
+    "Solicitar documento cliente da conta origem (validar se existe)"
+    "Solicitar a agencia e conta de origem (validar se existe)"
+    "Solicitar senha"
+    "Solicitar documento cliente da conta destino (validar se existe)"
+    "Solicitar a agencia e conta destino (validar se existe)"
+    "Solicitar o valor da transferência (não permitir valor negativo)"
+    "Confirmar transferência (validar saldo)"

@@ -1,0 +1,5 @@
+"Os princípios de S.O.L.I.D. são necessários para que nosso software seja construído com uma base duradoura, ou seja,
+ tão sólido que se perpetue durante o tempo.
+ Neste trabalho você irá implementar um pequeno software utilizando a linguagem de programação JAVA,
+ e tentando ao máximo utilizar das boas práticas que aprendemos com S.O.L.I.D.
+ A aplicação será desenvolvida como sendo do tipo Console Application, sendo assim os dados serão persistidos apenas em memória"
